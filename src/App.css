@@ -1,0 +1,64 @@
+.root {
+  padding: 80px 250px;
+}
+
+.action-button-container {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 100px;
+  border: 2px solid #1091f1;
+  color: #1091f1;
+  border-radius: 5px;
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.active {
+  background: #1091f1;
+  color: white;
+}
+
+.box {
+  width: 800px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px -44px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 1px 1px 0px -44px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 1px 1px 0px -44px rgba(0, 0, 0, 0.22);
+  margin-top: 30px;
+  padding: 20px 0px 20px 0px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.smallBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 90px;
+  color: white;
+  border-radius: 5px;
+  background: #0408A2;
+  font-weight: bold;
+  cursor: pointer;
+}
